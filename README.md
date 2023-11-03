@@ -1,27 +1,57 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# GitHub User Search
 
-Currently, two official plugins are available:
+Projeto de Busca de Usuario no GitHub, o Projeto tem o objetivo de buscar Usuarios no GitHub e mostrar as informações do Usuario buscado, o projeto foi realizado com ReactJs, StyledComponents com TypeScript, e tambem consultando a API do GitHub.
+## Imagem do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![GitHub-Search-User](https://res.cloudinary.com/dz209s6jk/image/upload/v1630058595/Challenges/axhe4rw0jpykyhdphhwc.jpg)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Stack utilizada
 
-- Configure the top-level `parserOptions` property like this:
+**Front-end:** React, Vite, StyledComponents, API, JavaScript
+## Instalação
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+Clone o Repositorio e instale as dependencias do projeto
+
+```bash
+ git clone https://github.com/RonaldMamani/GitHub_User_Search.git
+ npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#### Instalação do StyledComponents:
+
+Para saber sobre algumas funcionalidades leia a [documentação do StyledComponents](https://styled-components.com/docs)
+
+```bash
+ npm install styled-components
+```
+
+#### Instalação do DayJS:
+
+Para saber sobre algumas funcionalidades leia a [DayJS](https://www.npmjs.com/package/dayjs)
+
+```bash
+ npm install dayjs --save
+```
+
+#### Execução de Codigo:
+
+Execute o codigo com 
+
+```bash
+ npm run dev
+```
+## Link do Deploy
+
+O site esta hospedado no momento, esta na vercel com deploy realizado.
+
+Link: https://git-hub-user-search-ashy.vercel.app/
+## Aprendizados
+
+Tive o Aprendizado de ReactJS com diverso hooks do React e utilizando e consultando a documentação da API do GitHub, tambem tive conhecimento aprimorado do StyledComponents com Context para aplicar as mudanças de dentro do projeto, aprendi a criar componentes com StyledComponents com ReactJS.
+
+## Autores
+
+- [@Ronaldmamani](https://www.github.com/RonaldMamani)
+
